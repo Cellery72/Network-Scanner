@@ -29,8 +29,7 @@ a) send an initial request to authenticate to the gateway (192.168.0.1 in my cas
 b) send a subsequent request to return the data of the connected devices.
 c) manipulate the data to suit your needs, perhaps to keep track of online vs. offline, 2.4ghz vs. 5ghz, IPV4 vs. IPV6 etc.
 d) store the data in a database of your choice
-
-**ex:** I personally will use [Node.js](https://nodejs.org/en/), [Cheerio](https://github.com/cheeriojs/cheerio) and [Request](https://www.npmjs.com/package/request).
+ **ex:** I personally will use [Node.js](https://nodejs.org/en/), [Cheerio](https://github.com/cheeriojs/cheerio) and [Request](https://www.npmjs.com/package/request).
 
 7. That's pretty much it.. at this point that's all the steps I can think of, eventually we will add in more steps of creating a GUI to accurately articulate the online/offline devices in realtime, however that's not a priority at this time.
 
